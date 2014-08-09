@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
-/*@import url(http://fonts.googleapis.com/css?family=Voltaire);*/
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
 @import url(http://fonts.googleapis.com/css?family=Sanchez);
 
@@ -31,6 +31,12 @@ h1, h2, h3
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #468847;
+    margin-bottom: 20px;
+}
 
 a
 {
@@ -43,11 +49,18 @@ a:hover
     text-decoration: none;
 }
 
-p, li, span
+li, span
 {
     line-height: 20px;
     font-size: 14px;
     font-size: 1.4rem;
+    font-weight: 300;
+}
+p
+{
+    line-height: 30px;
+    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: 300;
 }
 
@@ -65,7 +78,6 @@ ul
     line-height: 60px;
     font-weight: 300;
     font-family: 'Berkshire Swash', sans-serif;
-    /*font-family: 'Voltaire', sans-serif;*/
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -164,29 +176,28 @@ ul
 /**
  * Intro
  */
-#intro h3
+#intro h2
 {
     color: #fff;
     font-weight: 300;
-    text-align: justify;
+    text-align: center;
     text-transform: uppercase;
-    /*font-size: 90px;*/
-    font-size: 40px;
-    font-size: 4rem;
+    font-size: 90px;
+    font-size: 9rem;
     margin: 0 0 10px 0;
     font-family: 'Voltaire', sans-serif;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.95);
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.35);
     line-height: 90px;
 }
 
-#intro h4
+#intro h3
 {
     color: #ffd675;
     font-weight: 300;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 40px;
+    font-size: 4rem;
     font-family: 'Sanchez', serif;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.35);
     line-height: normal;
@@ -214,8 +225,8 @@ ul
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
-    font-size: 4rem;
+    font-size: 90px;
+    font-size: 9rem;
     margin: 25px 0;
     font-family: 'Voltaire', sans-serif;
 }
@@ -252,7 +263,10 @@ ul
 
 .line
 {
-    margin: 80px;
+    margin: 40px;
+}
+.flexslider.highlight{
+    color:white;
 }
 
 .quote
@@ -687,33 +701,3 @@ ul
     }
 
 }
-
-.flexslider{
-    margin-top: 350px;
-}
-
-body {
-  background-color: #000;
-  overflow: hidden;
-}
-body:after {
-  content: "";
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  border-radius: 300px;
-  right: 70%;
-  top: 120%;
-  box-shadow: 0 0 50px 5px white, 0 0 130px 10px white, 0 0 12px rgba(0, 0, 0, 0.2) inset, 0 0 30px white inset;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/82473/moon-transparent.png") no-repeat center black;
-  background-size: 402px;
-  animation: moonrise 20s forwards;
-}
-
-@keyframes moonrise {
-  100% {
-    right: 20%;
-    top: 10%;
-  }
-}
-
