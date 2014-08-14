@@ -38,6 +38,15 @@ h4{
     margin-bottom: 20px;
 }
 
+table{
+    line-height: 30px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.borderless td {
+    border: none;
+}
 a
 {
     color: #ffd675;
@@ -255,6 +264,13 @@ ul
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.mantra {
+    color: white;
+    font-size: 40px;
+    font-size: 4.0rem;
+    line-height: 50px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 1.0);
+}
 
 .pull-center
 {
@@ -276,7 +292,31 @@ ul
     font-size: 3rem;
     line-height: 40px;
 }
+.quote-sm
+{
+    text-align: center;
+    font-size: 25px;
+    font-size: 2.5rem;
+    line-height: 40px;
+}
 
+.schedule p
+{
+    line-height: 15px;
+    /*font-size: 20px;
+    font-size: 2.0rem;*/
+    font-weight: 300;
+}
+
+.schedule .heading{
+    padding-top: 20px;
+}
+
+/*.lead{
+    color: #ffd675;
+    font-weight: normal;
+}
+*/
 .customer
 {
     text-align: center;
@@ -426,6 +466,10 @@ ul
         padding-right: 0;
     }
 
+    img {
+        margin-top: 10px;
+    }
+
     .container
     {
         padding-left: 20px;
@@ -500,6 +544,10 @@ ul
         padding-right: 0;
     }
 
+    img {
+        margin-top: 10px;
+    }
+
     .container
     {
         padding-left: 20px;
@@ -571,6 +619,10 @@ ul
     {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    img {
+        margin-top: 10px;
     }
 
     .container
