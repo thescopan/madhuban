@@ -1,8 +1,8 @@
 $(function() {
 
-	var latlng = new google.maps.LatLng(57.0442, 9.9116);
+	var latlng = new google.maps.LatLng(30.086928,78.267611);
 	var settings = {
-		zoom: 15,
+		zoom: 14,
 		scrollwheel: false,
 		center: latlng,
 		mapTypeControl: true,
@@ -12,7 +12,7 @@ $(function() {
 		mapTypeId: google.maps.MapTypeId.ROADMAP};
 	var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
 	var contentString = '<div style="color: black">'+
-		'<h4>Ember</h4>'+
+		'<h4>Madhuban Ashram</h4>'+
 		'</div>';
 	var infowindow = new google.maps.InfoWindow({
 		content: contentString
@@ -29,14 +29,14 @@ $(function() {
 		new google.maps.Point(0,0),
 		new google.maps.Point(50, 50));
 
-	var companyPos = new google.maps.LatLng(57.0442, 9.9116);
+	var companyPos = new google.maps.LatLng(30.086928,78.267611);
 
 	var companyMarker = new google.maps.Marker({
 		position: companyPos,
 		map: map,
 		icon: companyImage,
 		shadow: companyShadow,
-		title:"Ember",
+		title:"Madhuban Ashram",
 		zIndex: 3});
 
 	google.maps.event.addListener(companyMarker, 'click', function() {
