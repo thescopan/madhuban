@@ -107,7 +107,8 @@ ul
 #header .navbar
 {
     margin-bottom: 10px;
-    background: none;
+    /*background: none;*/
+    background-color: rgba(0, 0, 0, 0.5);
     filter: none;
         -moz-transition: all 600ms;
         -webkit-transition: all 600ms;
@@ -133,7 +134,8 @@ ul
 
 #header .navbar-inner
 {
-    background: none;
+    /*background: none;*/
+    background-color: rgba(0, 0, 0, 0.5);
     border: none;
         -webkit-border-radius: none;
         -moz-border-radius: none;
